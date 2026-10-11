@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.2.0](https://github.com/casonadams/ripwire/compare/ripwire-v0.1.2...ripwire-v0.2.0) (2026-10-11)
+
+
+### Features
+
+* **cli:** expose all top-level Ripwire workflow flags and XML query serializers ([dce2f10](https://github.com/casonadams/ripwire/commit/dce2f105e8c2ec36ab7c1c196d231ebf9c83fec5))
+* **navigate:** format navigation commands as canonical Ripwire XML ([e6ca76c](https://github.com/casonadams/ripwire/commit/e6ca76c8d0d8632a42671cc95423f6d3ec0e5a1c))
+* **serialize:** align XML schemas and child tags with Ripwire canonical dialect ([5ed0c00](https://github.com/casonadams/ripwire/commit/5ed0c00dd6ad088dc001d87c0f1af9e56423c109))
+
+
+### Bug Fixes
+
+* **build:** add MSVC C11 flags and update repository metadata ([fcecdb0](https://github.com/casonadams/ripwire/commit/fcecdb0dd991e92bc139b79e05a02522dc56ef22))
+* **cli:** match Ripwire exit 1 and error reporting on missing navigation symbols ([3e98f34](https://github.com/casonadams/ripwire/commit/3e98f343b815cd5f4d70027c19c1e132c7eb77d3))
+* **cli:** resolve CRAP threshold failures on navigation and query serialization ([1404301](https://github.com/casonadams/ripwire/commit/14043014d61addeddeac96be0e863847d824e5cf))
+
+
+### Performance Improvements
+
+* **clones:** cache file bytes in candidate extraction and fast-path co-change capability ([4c23c25](https://github.com/casonadams/ripwire/commit/4c23c257b42de54c811762dc5fb5289079591d33))
+* **clones:** parallelize type-3 clone pair evaluation and direct-scan readability bytes ([c9dd57f](https://github.com/casonadams/ripwire/commit/c9dd57f6ad4f031106177ce53a1c9cba2cb73076))
+* **hits:** direct CSR slice indexing in HITS power iteration ([457aa92](https://github.com/casonadams/ripwire/commit/457aa92255fa45a3fded2fec4489d2745749ae6b))
+* **ingest:** optimize directory crawl, parser reuse, and reference span lookup ([b90f7c4](https://github.com/casonadams/ripwire/commit/b90f7c43478a78e8cad733d43cb67364acc77f6a))
+* **kgrams:** sort-dedup flat k-gram vectors and thread-local markdown parser ([0a6c9fe](https://github.com/casonadams/ripwire/commit/0a6c9fed57ce4b7f7529e7eb0c3977eaa7262265))
+* **rank:** precompute reciprocal out-degrees and direct index CSR gather ([a4c14ae](https://github.com/casonadams/ripwire/commit/a4c14aeb3872994b8fcb04abf8face0dce8f61c2))
+* **resolve:** stack candidate buffers, parallel reference resolution, and spur matching ([80647f5](https://github.com/casonadams/ripwire/commit/80647f5a7174d4241ae299c8f120933bfc002bba))
+
+
+### Documentation
+
+* **www:** format CLI commands as structured cards with operational mechanics ([884e0e8](https://github.com/casonadams/ripwire/commit/884e0e872256fff7b86104cb81294861d7a7418f))
+
 ## [0.1.2](https://github.com/casonadams/ripwire/compare/ripwire-v0.1.1...ripwire-v0.1.2) (2026-10-11)
 
 
