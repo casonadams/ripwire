@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/casonadams/ripwire/compare/ripwire-v0.3.0...ripwire-v0.3.1) (2026-10-12)
+
+
+### Features
+
+* **ingest:** add Objective-C and Objective-C++ support ([be0b0a2](https://github.com/casonadams/ripwire/commit/be0b0a2c03ee9338a3ff8750b36295422df565db))
+
 ## [0.3.0](https://github.com/casonadams/ripwire/compare/ripwire-v0.2.0...ripwire-v0.3.0) (2026-10-12)
 
 
