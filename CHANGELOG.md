@@ -1,5 +1,47 @@
 # Changelog
 
+## [0.3.0](https://github.com/casonadams/ripwire/compare/ripwire-v0.2.0...ripwire-v0.3.0) (2026-10-12)
+
+
+### Features
+
+* **arch:** implement --arch layering rules, --mermaid diagrams, and --zoom ([eebcb78](https://github.com/casonadams/ripwire/commit/eebcb783df86083847117b53756e46a284e11fb4))
+* **cli:** add top-k, schema legend, test layering, and git-HEAD delta parity ([9d6368a](https://github.com/casonadams/ripwire/commit/9d6368abd8f7c6b01048e4c9d5ac2714adb7ebb7))
+* **cli:** complete 1-to-1 feature and flag parity with ripwire engine ([3b44f34](https://github.com/casonadams/ripwire/commit/3b44f348e71d529c343bc13d102c59319e41fbe4))
+* **cli:** complete 1:1 parity with CLI mutations, session tools, and advanced queries ([9f3907c](https://github.com/casonadams/ripwire/commit/9f3907c02ac268201bad19fcbfa74b32792d697f))
+* **gate:** implement --map-diff, --seams, --pr-context, and --merge-scout ([396d729](https://github.com/casonadams/ripwire/commit/396d729967fdf9187be81b6a7845d27fc2ca342d))
+* **gate:** implement short-horizon-churn, nesting, params, quality acks, and exit code 2 contract ([2c9db2f](https://github.com/casonadams/ripwire/commit/2c9db2f4f1ce31499c7fd182c9b9bb08a26339a6))
+* **grammars:** add HTML and CSS tree-sitter grammars ([b7f1392](https://github.com/casonadams/ripwire/commit/b7f1392dc20d19c2874c92dc58f79f09f8289601))
+* **grammars:** add Scala and Erlang tree-sitter grammars ([2fe8403](https://github.com/casonadams/ripwire/commit/2fe84035e677eb6fd5a8f4215fcab4c1c3e041a9))
+* **grammars:** add SQL, Protobuf, GraphQL, and Dockerfile support, expanding to 35 languages ([c951c9a](https://github.com/casonadams/ripwire/commit/c951c9a6681da097940b5d0a3e4bff76cb3dc617))
+* **grammars:** add Zig, Solidity, and HCL tree-sitter grammars ([5020560](https://github.com/casonadams/ripwire/commit/50205606f7f8f885aa5f942f5afc9b2504376010))
+* **grammars:** expand language support to 31 languages across systems, cloud, functional, and web ([224fe31](https://github.com/casonadams/ripwire/commit/224fe3106447c9a0ad5d212eb763affc8659c2ad))
+* **make:** add make validate and make parity targets with cross-repo validator ([07bd1cc](https://github.com/casonadams/ripwire/commit/07bd1cc911af447eac9c62af03138a855c6911ab))
+* **man:** add manual pages for rw and ripwire with automatic cargo install ([beb21ab](https://github.com/casonadams/ripwire/commit/beb21abb27c6f6ed466890477819c7bebcae379c))
+* **metrics:** implement --biggest-first, --nonlocal-state, --lint, and --lint-catalog ([8e0a923](https://github.com/casonadams/ripwire/commit/8e0a923b27e1cb48979d7bd7affb32131f468bea))
+* **navigate:** implement --at, --verify, --pack-task, and --graph-query ([44a139a](https://github.com/casonadams/ripwire/commit/44a139afe44af00b964a97277ac9e456639650b0))
+* **parity:** achieve 100% 1:1 behavioral parity with upstream ripwire across 36 commands ([83c7742](https://github.com/casonadams/ripwire/commit/83c77422750795658207ba1486215b331d0e03f5))
+* **skills:** package and install 18 ripwire agent skills with --add-skills ([7affe30](https://github.com/casonadams/ripwire/commit/7affe30d01be7e479e4a1d7a2d5abb7f6bcc093f))
+
+
+### Bug Fixes
+
+* **cli:** default top_k to 200 in dispatch_default_run matching upstream ripwire ([3dc265d](https://github.com/casonadams/ripwire/commit/3dc265dc6f53be1e51e4a9e66267dad034bdc005))
+* **clones,cli:** resolve target repository paths in clone detector and fix endpoint splitting in path query ([7083915](https://github.com/casonadams/ripwire/commit/7083915ecac75b43747d4e014bccfdcfb7dcdea5))
+* **gate:** validate git refs in merge-scout and fetch full history in CI parity validation ([7137f4d](https://github.com/casonadams/ripwire/commit/7137f4dd1850b9f09192bcaaf28b4fbbac84f01d))
+* **parity:** resolve CRAP complexity scores and enforce unambiguous path matching for --at ([8ab1d36](https://github.com/casonadams/ripwire/commit/8ab1d36cb149302703ab0fb2fc4298e9b41b4261))
+* **skills:** ensure all skills trigger on ripwire and invoke rw binary ([462ad06](https://github.com/casonadams/ripwire/commit/462ad063788f7dd051ec3ef849a555e7a1449c23))
+
+
+### Documentation
+
+* **sync:** update README, gates, workflows, man pages, and skills catalog ([02f7337](https://github.com/casonadams/ripwire/commit/02f73373479121a01bc06fe3fabec3e8c290b043))
+
+
+### Code Refactoring
+
+* **gate:** format pr_context and reduce cyclomatic complexity ([05f9b1f](https://github.com/casonadams/ripwire/commit/05f9b1f81cb1c0000491bd3862ffdea4aef9e886))
+
 ## [0.2.0](https://github.com/casonadams/ripwire/compare/ripwire-v0.1.2...ripwire-v0.2.0) (2026-10-11)
 
 
