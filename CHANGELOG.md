@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.4.0](https://github.com/casonadams/ripwire-rs/compare/ripwire-v0.3.1...ripwire-v0.4.0) (2026-10-13)
+
+
+### Features
+
+* **bench:** add cargo bench pipeline suite and Makefile bench targets ([6456639](https://github.com/casonadams/ripwire-rs/commit/64566396814fbc573d4c07b695eb1bd9adfa75d7))
+* **bench:** add performance and resource benchmark target to Makefile ([d3afaf3](https://github.com/casonadams/ripwire-rs/commit/d3afaf3791591d07d51c8eb12f84631102ac24bc))
+* **parity:** implement wrap command, arity filtering, and html canvas visualizer ([100a6de](https://github.com/casonadams/ripwire-rs/commit/100a6de86b328b7f61e28e9057db31fdf324ee5c))
+
+
+### Bug Fixes
+
+* **ci:** configure cccc language filter, bench nextest listing, and test coverage ([809b406](https://github.com/casonadams/ripwire-rs/commit/809b4066fa6a225eba6f2da27d350a5ebb4834b4))
+
+
+### Performance Improvements
+
+* **cache:** accelerate warm queries and optimize clone candidate extraction ([d7b7dad](https://github.com/casonadams/ripwire-rs/commit/d7b7dada11b333cd50559e7f50695e95e715337c))
+* **dispatch:** extract primary workflow dispatcher and improve test coverage ([9bec4f2](https://github.com/casonadams/ripwire-rs/commit/9bec4f2869278bb66ac4d8352c73f05d5d286531))
+* **ingest:** parallelize symbol and reference extraction via prefix sums ([af6aa10](https://github.com/casonadams/ripwire-rs/commit/af6aa102f5c981f90f0c355431bb05f78b4bb8b4))
+
+
+### Documentation
+
+* **wrap:** document wrap command and synchronize docs with www ([f93f960](https://github.com/casonadams/ripwire-rs/commit/f93f960bfb58f5a6de7dc12d7109054e52b5090e))
+
 ## [0.3.1](https://github.com/casonadams/ripwire/compare/ripwire-v0.3.0...ripwire-v0.3.1) (2026-10-12)
 
 
