@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.4.1](https://github.com/casonadams/ripwire-rs/compare/ripwire-v0.4.0...ripwire-v0.4.1) (2026-10-14)
+
+
+### Bug Fixes
+
+* **ci:** resolve scan-skills exit code, crap score, and test disk io ([9d88076](https://github.com/casonadams/ripwire-rs/commit/9d880767621ae4346bc28e848204185197a9bd49))
+* **git:** implement recency-weighted ownership, bus factor, and real git-derived tool responses ([d742a40](https://github.com/casonadams/ripwire-rs/commit/d742a40cb085065d8a792b11d2dc2f205acf8479))
+* **mcp:** decompose scan_local_branch_hits and remove obsolete quality acks ([f233e5a](https://github.com/casonadams/ripwire-rs/commit/f233e5a0f803de8aebd75d007e2c6786fc4c7d48))
+* **parity:** achieve 1:1 DOM parity and wall/CPU/RSS superiority across all 67 commands ([a4e4ed8](https://github.com/casonadams/ripwire-rs/commit/a4e4ed80ed8d7bd65971b536899c37c97105bdba))
+* **parity:** align exemplar selection, graph-query DSL, and owners output ([a558268](https://github.com/casonadams/ripwire-rs/commit/a558268107ccd9d4edebcf04eb2552ed3d9f5192))
+* **parity:** complete 24-repo parity validation and optimize whereis CPU ([f5c7d8f](https://github.com/casonadams/ripwire-rs/commit/f5c7d8fb57a8bbb5e22976d7116adbf6ba39efdd))
+* **parity:** implement streaming xml minifier, fix ci parity bash arithmetic, and resolve crap coverage ([01732a9](https://github.com/casonadams/ripwire-rs/commit/01732a95d9f631586fb8a9dea311a273d843aa91))
+* **parity:** resolve DIRT.md git verbs, enforce yq xml validation, and implement missing flags ([10f0383](https://github.com/casonadams/ripwire-rs/commit/10f03831dbc493996575f775366d7a7b84aac9dd))
+
+
+### Performance Improvements
+
+* **clones:** inverted index stop-gram filtering and lazy static coupling ([5eba504](https://github.com/casonadams/ripwire-rs/commit/5eba5049d3b1bb768d99715df31da05d2948ba63))
+* **metrics:** lazy git history walking and zero-allocation token stream ids ([1d115d0](https://github.com/casonadams/ripwire-rs/commit/1d115d0d382e2f13c420cd4a62b9aa100c78fffe))
+
 ## [0.4.0](https://github.com/casonadams/ripwire-rs/compare/ripwire-v0.3.1...ripwire-v0.4.0) (2026-10-13)
 
 
