@@ -114,6 +114,17 @@
 
 * **gate:** format pr_context and reduce cyclomatic complexity ([05f9b1f](https://github.com/casonadams/ripwire-rs/commit/05f9b1f81cb1c0000491bd3862ffdea4aef9e886))
 
+## [0.4.2](https://github.com/casonadams/ripwire-rs/compare/ripwire-v0.4.1...ripwire-v0.4.2) (2026-10-14)
+
+
+### Bug Fixes
+
+* **analysis:** resolve Dart analysis gaps, enforce scm query contracts, and minify XML ([43793b0](https://github.com/casonadams/ripwire-rs/commit/43793b06d5ac64f34a40cc3d4f69dfd903be1ebb))
+* **build:** normalize embedded skill paths to forward slashes for windows msvc ([5eba075](https://github.com/casonadams/ripwire-rs/commit/5eba075534d8009b86b201f8574ac1c0a9ad82e4))
+* **cli:** resolve Round 3 DIRT.md retrieval, subdirectory path, and XML schema gaps ([3632a9f](https://github.com/casonadams/ripwire-rs/commit/3632a9fdd9719ce64beffd4cbc672b7f3e09cdd8))
+* **www:** restore github repository link in navbar ([46b9703](https://github.com/casonadams/ripwire-rs/commit/46b97030a7f267dc3f508f904b4dd1715be6c8d8))
+* **www:** update rust api snippet to ripwire-rs and align branding ([80441bc](https://github.com/casonadams/ripwire-rs/commit/80441bcf3602ae52817c90b32b3e0be87df2f749))
+
 ## [0.4.1](https://github.com/casonadams/ripwire-rs/compare/ripwire-v0.4.0...ripwire-v0.4.1) (2026-10-14)
 
 
