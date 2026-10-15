@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.5.1](https://github.com/casonadams/ripwire-rs/compare/v0.5.0...v0.5.1) (2026-10-15)
+
+
+### Features
+
+* **doc-drift:** wire probe_name_history into --doc-drift --with-history ([8488dfd](https://github.com/casonadams/ripwire-rs/commit/8488dfd831278b5502a28f131bbb4615d1730918))
+* **parity,legend:** achieve 67/67 DOM parity, add legend encyclopedia/dedup, and wire CLI knobs ([be38243](https://github.com/casonadams/ripwire-rs/commit/be38243411f0ed602326c6e4c1bd7da903891e45))
+
+
+### Bug Fixes
+
+* **contract,resolve:** ignore non-definition query matches in edit-check and resolve single-file Tier 3 candidates ([e341dd6](https://github.com/casonadams/ripwire-rs/commit/e341dd60c68d4510b64c8e26a02d06a0df084aa1))
+* **dart,navigate:** resolve private method edit-check visibility, named param arity, and multi-def caller union ([cf3e769](https://github.com/casonadams/ripwire-rs/commit/cf3e769bf066865b12863a82984aa335472a0d37))
+* **parity:** resolve DIRT.md discrepancies and unify language semantics behind trait ([8bf58c8](https://github.com/casonadams/ripwire-rs/commit/8bf58c88f0ee6cfc8b97be2325878a434fa92240))
+
 ## [0.5.0](https://github.com/casonadams/ripwire-rs/compare/v0.4.1...v0.5.0) (2026-10-14)
 
 
