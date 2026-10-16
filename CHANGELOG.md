@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.5.2](https://github.com/casonadams/ripwire-rs/compare/v0.5.1...v0.5.2) (2026-10-16)
+
+
+### Features
+
+* **cli,gate,lint:** wire all CLI filter/scope/ack flags, 12 delta kinds, and 39 lint rules ([aeab792](https://github.com/casonadams/ripwire-rs/commit/aeab7921560e47438bfde07bb8aa2d075031ed4f))
+* **flags,mcp:** scan all code files with root-relative paths in --flags and lazy-load MCP git history ([ec406bb](https://github.com/casonadams/ripwire-rs/commit/ec406bb524395533cc89288e47deefaa057a49ba))
+* **metrics,doc-drift,navigate:** compute field-affinity, graph_ambiguous, and .scm doc-drift corroboration ([ccc44bb](https://github.com/casonadams/ripwire-rs/commit/ccc44bbd1f1057376f5e08e47316d01d64f3004a))
+* **metrics,gate,navigate:** compute real values for comment-coherence, context-ratio, handoff, pr-context, grep, and impact ([4c67673](https://github.com/casonadams/ripwire-rs/commit/4c67673f95e4d3ea6a0e8986e42b3f274d87125c))
+* **metrics,retrieval:** add body-reference corroboration for --for and C/C++ ConfusionFamily in --quality-panel ([f73bb48](https://github.com/casonadams/ripwire-rs/commit/f73bb4866bb6fa699ba2e4eb50168e26519da594))
+* **retrieval:** improve --for multi-term ranking and invalidate stale cache on version bump ([42e51e3](https://github.com/casonadams/ripwire-rs/commit/42e51e3882d0bd7e6b52706c61ad3ac07857f55d))
+* **validate,skills:** add computed-metric invariants, validate-knowledge suite, and repo-local parity skill ([113a522](https://github.com/casonadams/ripwire-rs/commit/113a522483d9da8ec5c310b4c64aec8177ba0280))
+
+
+### Bug Fixes
+
+* **cli,mcp:** propagate root path in notes, pr-context, and MCP slice ([9d4e62c](https://github.com/casonadams/ripwire-rs/commit/9d4e62cedd827a6f944203bf7da8d6e20b0640f0))
+* **crawl:** apply --ignore-tests and --max-file-size at crawl time ([264aba7](https://github.com/casonadams/ripwire-rs/commit/264aba786cb22e790fcb8a4d255b15d5b00b9461))
+* **for:** implement --sections and the counted &lt;lego&gt; stub ([abf9265](https://github.com/casonadams/ripwire-rs/commit/abf926532a177821d0e5698f91757f96ca4f457f))
+* **metrics:** resolve root-relative file paths in comment-coherence and quality-panel ([4c14c16](https://github.com/casonadams/ripwire-rs/commit/4c14c16d336e75d859e55f27dec4cc485ec5000b))
+* **quality-ack:** write real content ids instead of a zero cid ([2b0e261](https://github.com/casonadams/ripwire-rs/commit/2b0e261a0773bc68c03132b16ec562adcd18966d))
+* **quality-baseline:** refuse dirty pins unless --allow-dirty ([04d9cf6](https://github.com/casonadams/ripwire-rs/commit/04d9cf6f11084d354d7cb6ef0213cb847e81e04e))
+* **quality-baseline:** stamp the real HEAD sha ([3987528](https://github.com/casonadams/ripwire-rs/commit/39875282ad11ad009d16e58648373e8352ca3eae))
+* **quality-delta:** honor --show-stale by collapsing stale-ack rows ([174ce2f](https://github.com/casonadams/ripwire-rs/commit/174ce2fbf9f84c9c0c77ee47a91d853a4ee4ac2a))
+* **quality-delta:** report each regression's real symbol line ([5a4f628](https://github.com/casonadams/ripwire-rs/commit/5a4f628eed7846b9474a204ed47142f157167060))
+* **zoom:** compute a real multi-level Louvain hierarchy ([3256065](https://github.com/casonadams/ripwire-rs/commit/32560650ca757d6b50dcc7b70d9b3a757ca6a9de))
+
+
+### Performance Improvements
+
+* **grep:** index symbols by file and caller counts in call_grep_with_context ([08656ad](https://github.com/casonadams/ripwire-rs/commit/08656ad249c40bcc04f236d709cc99b89b32cfee))
+
 ## [0.5.1](https://github.com/casonadams/ripwire-rs/compare/v0.5.0...v0.5.1) (2026-10-15)
 
 
