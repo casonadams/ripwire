@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.5.4](https://github.com/casonadams/ripwire-rs/compare/v0.5.3...v0.5.4) (2026-10-17)
+
+
+### Features
+
+* **analysis:** unify corpus traits and improve cross-repo graph accuracy ([48c254c](https://github.com/casonadams/ripwire-rs/commit/48c254c2ff15a3ca9495cfb501003cabd7065840))
+* **ingest,navigate,gate:** improve knowledge precision and trait ergonomics across lenses ([a175fb9](https://github.com/casonadams/ripwire-rs/commit/a175fb9efbb8ee80f6d6d91c5594a8ce1b27d918))
+* **navigate:** close parity gaps on impact importers, doc-drift, C++ uses, and task budgets ([2946c5e](https://github.com/casonadams/ripwire-rs/commit/2946c5eca5094082fd9104c6f3f5a43611113de9))
+* **resolve:** add ResolutionLookup trait, C-family macro blanking, and std-member gates ([e1b70d8](https://github.com/casonadams/ripwire-rs/commit/e1b70d8eb51a4ed643e9533af8bab58db51a4c89))
+* **retrieval,slice,resolve:** close parity gaps in signature spans, task lens, slice context, and disambiguation ([b45ca9c](https://github.com/casonadams/ripwire-rs/commit/b45ca9c5c57da61ff3f35b09a6b94067103a8743))
+
 ## [0.5.3](https://github.com/casonadams/ripwire-rs/compare/v0.5.2...v0.5.3) (2026-10-17)
 
 
