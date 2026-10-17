@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.5.3](https://github.com/casonadams/ripwire-rs/compare/v0.5.2...v0.5.3) (2026-10-17)
+
+
+### Features
+
+* **languages,lint,navigate,serialize:** filter C++ cast keywords, refine C-family lint precision, prune impact mega-hubs, and expand XmlReport ([dafb6fc](https://github.com/casonadams/ripwire-rs/commit/dafb6fceb3e1b45f7c46bbf1d9d5be39712a877a))
+* **lint:** back every catalog rule with a FileLintRule or SymbolLintRule trait impl ([cb0c5a5](https://github.com/casonadams/ripwire-rs/commit/cb0c5a593442cb1e8ffc29a56108d8eb43f04a72))
+* **serialize,graph:** extend XmlReport with graph_gauges/pr_iters and compute real resolver gauges ([f18e1e8](https://github.com/casonadams/ripwire-rs/commit/f18e1e8e21576974cb27d7cd7e84e3eecad2860b))
+
+
+### Bug Fixes
+
+* **ci,crap,parity:** enforce zero-warning make all/crap and v0.6.7 clean-tree parity ([4c8a875](https://github.com/casonadams/ripwire-rs/commit/4c8a875058b85e6e8e5f6ab6b01bd9804e1a77e2))
+* **lint,quality-delta:** mask comments and literals before pattern checks ([16b9c5d](https://github.com/casonadams/ripwire-rs/commit/16b9c5d1a85e8a00575591635c1bd3cea0c86014))
+
 ## [0.5.2](https://github.com/casonadams/ripwire-rs/compare/v0.5.1...v0.5.2) (2026-10-16)
 
 
